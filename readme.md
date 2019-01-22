@@ -28,7 +28,10 @@
 
 아래와 같은 `#` ,`:` 특수기호를 특수기호가 아니게 바꾸어 주는 것을 escaping이라고 함.
 
-![1548130923995](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\1548130923995.png)
+
+
+
+![1548130923995](https://user-images.githubusercontent.com/38032500/51531052-c073b880-1e7f-11e9-8817-8b29b2bf68a3.png)
 
 `escape`/`encodedURI`/`encodedURIComponent` 인코딩함수.
 
@@ -46,9 +49,8 @@
 
 주소를 특수문자도 인코딩 함. 모든 문자를 인코딩하기 때문에 경로를 나타내는 /file/exe/index 값이 있다면 "/"도 인코딩한다. 이렇게 되면 서버에서 인식을 못한다. 이럴 때는 encodeURL를 사용.
 
-![1548147408581](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\1548147408581.png)
-
-![1548147506190](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\1548147506190.png)
+![1548147408581](https://user-images.githubusercontent.com/38032500/51531056-c10c4f00-1e7f-11e9-9c76-91a7b37de59a.png)
+![1548147506190](https://user-images.githubusercontent.com/38032500/51531060-c4073f80-1e7f-11e9-9239-e9d34757f30f.png)
 
 디코딩은 decodeURIComponent()함수를 사용한다.
 
